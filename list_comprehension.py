@@ -11,10 +11,10 @@ pow2 = [2 ** x for x in range(10)]
 # print(pow2)
 
 ## list comprehension with if statements
-even_square = [x for x in range(50) if x%2 == 0]
-# print(even_square)
+even_nos = [x for x in range(10) if x%2 == 0]
+print(even_nos)
 
-list_of_list = [[1, 2, 3], [4, 5], [6, 7, 8, 9]] 
+# list_of_list = [[1, 2, 3], [4, 5], [6, 7, 8, 9]] 
 
-nested_list_comprehension = [i for x in list_of_list for i in x]
-print(nested_list_comprehension)
+# nested_list_comprehension = [i for x in list_of_list for i in x]
+# print(nested_list_comprehension)
